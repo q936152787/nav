@@ -1,0 +1,136 @@
+/*css reset*/
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  outline: none;
+  /* overflow: hidden; */
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.clearfix {
+  overflow: auto;
+}
+
+body {
+  background-color: #eeeeee;
+}
+
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+
+.search-container {
+  margin: 200px 0 40px 0;
+}
+
+.searchBar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: nowrap;
+  margin: auto;
+}
+
+.searchBar .search {
+  width: 20rem;
+  margin-left: 0;
+  padding-left: 0;
+  border-radius: 30px;
+  height: 50px;
+}
+
+.searchBar button {
+  margin-top: 20px;
+  font-size: 20px;
+  display: block;
+}
+
+.navSite {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  flex-basis: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.siteLink {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.siteLink .logo {
+  font-size: 70px;
+}
+
+.siteLink .link {
+  width: 130px;
+  font-size: 15px;
+}
+.siteList {
+  margin: 0;
+}
+
+.siteList .addSite {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.addSite .add {
+  font-size: 70px;
+}
+
+.link {
+  width: 130px;
+  display: flex;
+  justify-content: center;
+}
+.close {
+  display: none;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.siteList .siteLink:hover > .close {
+  display: block;
+}
+
+.logo {
+}
+.logo > img {
+  width: 64px;
+  height: 64px;
+  border-radius: 20px;
+}
+
+@media (min-width: 700px) {
+  .searchBar {
+    width: 700px;
+  }
+  .navSite {
+    width: 660px;
+  }
+  .searchBar .search {
+    width: 600px;
+  }
+
+  button {
+    display: inline;
+  }
+}
+
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */
